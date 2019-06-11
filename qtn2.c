@@ -4,13 +4,15 @@ int main(void) {
 
 int n;
 scanf("%d",&n);
+	
+if(n<=0)	
+printf("invalid");
 
-if(n%2==0)
+
+else if(n%2==0)
 printf("Even");
 else if(n%2==1)
 printf("Odd");
-else
-printf("invalid");
 
 	return 0;
 }

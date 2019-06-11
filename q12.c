@@ -13,6 +13,7 @@ int main()
 			{
 				s[j]=s[j+1];
 			}
+			s[strlen(s)-1]='\0';
 		}
 	}
 	printf("%s",s);

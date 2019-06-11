@@ -4,6 +4,8 @@
 int main(void) 
 {
 char s[100],n[100];
+int a;
+scanf("%d",&a);
 scanf("%s",s);
 int t=strlen(s);
 int j=0;

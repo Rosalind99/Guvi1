@@ -3,14 +3,14 @@
 
 int main(void) 
 {
-char c[100];
-scanf("%s",c);
+int i,n1,n2;
+scanf("%d%d",&n1,&n2);
 
-for(int i=0;i<strlen(c);i++)
+for(i=n2;n2<10000;i++)
 {
-	c[i]+=3;
+	if(i%n1==0 && i%n2==0)
+	break;
 }
-printf("%s",c);
-
+printf("%d",i);
 
 }

@@ -3,13 +3,13 @@
 
 int main(void) 
 {
-int s=0,r,n;
-scanf("%d",&n);
+long long int s=0,r,n;
+scanf("%lld",&n);
 while(n!=0)
 {
 	r=n%10;
 	s=s+(r*r);
 	n=n/10;
 }
-printf("%d",s);
+printf("%lld",s);
 }
